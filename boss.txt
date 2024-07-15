@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 Hi my name is Roshini
+=======
+experimental
+ -----------------DONT FORGET TO SAVE-----------------------
+enter the current dates with names
+15.07.2024 riknesh
+>>>>>>> aa723ee1c82d557d871d0802e48bd63ff5148796
