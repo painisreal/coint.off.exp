@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form Elements</h1>
+    <ul>
+      <li>label</li>
+      <li>input</li>
+      <li>output</li>
+      <li>select</li>
+      <li>option</li>
+      <li>textarea</li>
+      <li>fieldset</li>
+      <!--element is used to group related data in a form.-->
+      <li>legend</li>
+      <li>datalist</li>
+      <li>optgroup</li>
+      <li>button</li>
+    </ul>
+
+    <div>
+      <fieldset>
+        <legend>Some form Elements</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /> <br />
+        <select name="" id="">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br />
+        <textarea name="" id=""></textarea>
+      </fieldset>
+      <br />
+      <input type="text" list="browsers" />
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </div>
+
+    <h1>Input types</h1>
+    <ul>
+      <h2>type = button</h2>
+      <li><input type="button" name="click"/></li>
+      <h2>type = week</h2>
+      <li><input type="week" /></li>
+      <h2>type =resert</h2>
+      <li><input type="reset" /></li>
+      <h2>type = text (default)</h2>
+      <li><input type="text" /></li>
+      <h2>type = url</h2>
+      <li><input type="url" /></li>
+      <h2>type = submit</h2>
+      <li><input type="submit" /></li>
+      <h2>type = tel</h2>
+      <li><input type="tel" /></li>
+      <h2>type = search</h2>
+      <li><input type="search" /></li>
+      <h2>type = range</h2>
+      <li><input type="range" /></li>
+      <h2>type = checkbox</h2>
+      <li><input type="checkbox" /></li>
+      <h2>type = image</h2>
+      <li><input type="image" /></li>
+      <h2>type = time</h2>
+      <li><input type="time" /></li>
+      <h2>type = number</h2>
+      <li><input type="number" /></li>
+      <h2>type = password</h2>
+      <li><input type="password" /></li>
+      <h2>type = radio</h2>
+      <li><input type="radio" /></li>
+      <h2>type = color</h2>
+      <li><input type="color" /></li>
+      <h2>type = date</h2>
+      <li><input type="date" /></li>
+      <h2>type = datetime-local</h2>
+      <li><input type="datetime-local" /></li>
+      <h2>type = email</h2>
+      <li><input type="email" /></li>
+      <h2>type = file</h2>
+      <li><input type="file" /></li>
+      <h2>type = hidden</h2>
+      <li><input type="hidden" /></li>
+      <h2>type = month</h2>
+      <li><input type="month" /></li>
+    </ul>
+
+    <div>
+      <h1>Attributes</h1>
+      <!-- size(len of char),value(initial value),readonly,disabled,required -->
+      <input type="text" id="fname" name="fname" placeholder="name" autofocus autocomplete="" />
+      <br /><!-- placeholder -->
+      <input type="text" id="fname" name="fname" placeholder="name" readonly />
+      <br /><!-- attr: readonly -->
+      <input type="text" id="fname" name="fname" placeholder="name" required />
+      <br /><!-- attr: required -->
+      <h4>pattern</h4>
+      <input type="text"  pattern="[A-Za-z]{3}" title="Three letter country code" /> <br>
+      <textarea name="" id="" cols="30" rows="10"></textarea> <br />
+      <select name="" id="" size="2" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br />
+    </div>
+  </body>
+</html>
